@@ -1,0 +1,41 @@
+/* Centralizar elementos dentro de linhas */
+.row {
+    justify-content: center;
+}
+
+.titulo{
+    color: rgb(10, 11, 11);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(236, 217, 10, 0.60);
+  }
+
+/* Estilo da caixa */
+.Box {
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Estilo para o título da caixa */
+.Box h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo para o texto da caixa */
+.Box p {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: bisque;
+}
+
+/* Estilo para telas pequenas */
+@media screen and (max-width: 600px) {
+    .banner {
+        height: 700px;
+    }
+}

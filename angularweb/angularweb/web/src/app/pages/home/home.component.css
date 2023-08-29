@@ -1,0 +1,100 @@
+.banner{
+    background-image: url('../../../assets/img/banner1.jpg');
+    height: 800px;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+.content{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.content h1{
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.content a{
+    text-decoration: none;
+    background-color: white;
+    color: var(--primeira-color);
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.content a:hover{
+    background-color: var(--primeira-color);
+    color: white;
+}  
+
+.Box{
+    background-color: rgb(66, 60, 60);
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Box h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.Box p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: bisque;
+}
+
+.foodbox{
+    padding: 10px 5px;
+
+}
+
+.foodbox img{
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    width: 100%; 
+}
+
+.foodbox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.maisopcoes{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn_pedido {
+    color: bisque;
+    background-color: rgb(66, 60, 60);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .banner{
+     
+        height: 700px;
+ 
+    }
+    
+}
