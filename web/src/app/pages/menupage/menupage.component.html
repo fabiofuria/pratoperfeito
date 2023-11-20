@@ -1,0 +1,34 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+    <div class="col-lg-6" *ngIf="menuData">
+      <a routerLink="../../menu" class="btn btn-sm btn-warning mb-3"><i class="bi bi-arrow-left"></i> Voltar</a>
+        
+        <div class="title">
+          <h1>{{menuData[0].foodName}}</h1>
+          <p>{{menuData[0].foodDetails}}</p>
+        </div>
+      
+        <img src="{{menuData[0].foodImg}}" width="100%"/>
+    </div>
+
+    
+      <div class="col-lg-6">
+        <div class="recipes">
+          <h1>Ingredientes</h1>
+
+          <div *ngFor="let mi of menuIngredients">
+            <p>{{mi.ingredientName}}</p>
+          </div>
+    
+          <br>
+
+          <h1>Modo de Preparo</h1>
+          
+          <div *ngFor="let mp of menuPreparation; let i = index">
+            <p><span class="badge rounded-pill bg-secondary">{{ i + 1 }}</span> {{mp.stepDescription}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>

@@ -1,0 +1,19 @@
+<div class="container mt-5 mb-5">
+  <h1 class="text-center">Receitas</h1>
+  <a routerLink="../home" class="btn btn-sm btn-warning mb-3"><i class="bi bi-arrow-left"></i> Voltar</a>
+  <div class="row">
+  
+    <div class="col-lg-4" *ngFor="let fd of foodData">
+
+      <div class="foodbox">
+        <img [src]="fd.foodImg" />
+        <h1>{{ fd.foodName }}</h1>
+        <p>{{ fd.foodDetails }}</p>
+        <a class="btn_pedido" [routerLink]="['/menu', fd.id]">
+          Veja a receita <i class="bi bi-clipboard-heart"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>

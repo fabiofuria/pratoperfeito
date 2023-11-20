@@ -1,0 +1,106 @@
+/* Estilo do fundo da imagem cobrindo a página inteira */
+body, html {
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/756/144/desktop-wallpaper-fish-food-template-fish-food.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+}
+
+/* Estilo do container de login */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #d3da1c;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 12px;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 5px;
+  color: #cacacadb;
+}
+
+
+.form-control {
+  width: 100%; /* Modificado para ocupar a largura total do container */
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  margin-bottom: 10px; /* Adicione margem inferior para espaçar os campos verticalmente */
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Modificado para ocupar a largura total do container */
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.btn-cadastrar {
+  background-color: transparent; /* Botão cadastrar com fundo transparente */
+  border: none;
+  color: #4caf50;
+  text-decoration: underline; /* Adicione sublinhado para indicar que é um link */
+  cursor: pointer;
+  width: 100%; /* Modificado para ocupar a largura total do container */
+  margin-top: 10px; /* Adicione margem superior para espaçar o botão cadastrar */
+}
+
+/* Estilo para quando o botão cadastrar for hover */
+.btn-cadastrar:hover {
+  text-decoration: none; /* Remova o sublinhado no hover */
+}
+
+.cadastrar-link {
+  color: #4caf50;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none; /* Remova o sublinhado padrão dos links */
+  display: inline-block; /* Para que o elemento se comporte como um botão em linha */
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Adicione a sombra de texto */
+}
+
+.cadastrar-link:hover {
+  color: #45a049;
+}

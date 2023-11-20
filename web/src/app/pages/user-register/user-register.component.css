@@ -1,0 +1,91 @@
+/* Estilo do fundo da imagem cobrindo a página inteira */
+body, html {
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/756/144/desktop-wallpaper-fish-food-template-fish-food.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+}
+
+/* Estilo do container de cadastro */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #d3da1c;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 16px;
+  color: #cacacadb;
+  font-weight: bold;
+  display: block;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para o botão "Voltar" com cor amarela */
+.btn-voltar {
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo para o botão "Voltar" no hover */
+.btn-voltar:hover {
+  background-color: #ffdb58; /* Altere a cor de fundo no hover, se necessário */
+  color: black; /* Altere a cor do texto no hover, se necessário */
+}
